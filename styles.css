@@ -1,0 +1,44 @@
+.controls {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1em;
+    width: 100%;
+}
+
+.controls > * {
+    width: 100%;
+    border-radius: 0.3em;
+}
+
+#scheme-select, 
+#get-scheme {
+    padding: 1em;
+}
+
+#color-picker {
+    height: 50px;
+}
+
+#get-scheme {
+    background: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.color-display {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);   /* five equal columns */
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0.4em;
+ 
+}
+
+.color-box {
+    height: 70vh;                           /* tall vertical bars */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;                   /* label at bottom */
+    position: relative;
+}
+
+

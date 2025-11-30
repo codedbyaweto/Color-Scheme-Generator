@@ -1,0 +1,2 @@
+# Color-Scheme-Generator
+This project is a simple color scheme generator that lets users pick a base color and choose a scheme type (monochrome, analogic, triad, etc.). It uses The Color API to fetch five matching colors and displays them as side-by-side vertical color columns, each labeled with its hex value. The interface includes a color picker, a scheme selector, and a “Get Color Scheme” button. The output visually resembles professional palette generators like Adobe Color or Coolors.
